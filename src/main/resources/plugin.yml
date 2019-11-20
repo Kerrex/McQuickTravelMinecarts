@@ -1,0 +1,10 @@
+name: QuickTravelPlugin
+version: 1.0
+main: pl.kerrex.quicktravel.QuickTravelPlugin
+
+commands:
+  qt-button:
+    description: Spawns button used to spawn minecraft in QuickTravel station
+    permission: minecraft.command.op
+    permission-message: You need to be OP in order to use this command
+    usage: /qt-button
